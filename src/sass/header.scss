@@ -1,0 +1,40 @@
+@import 'colors';
+@import 'functions/flex';
+
+.header {
+  width: 100%;
+  padding: 0.5rem;
+  @include flex(row, 0, center, space-between);
+  color: $white;
+  font-size: 2rem;
+  background-color: $header-pink;
+
+  .button-back {
+    background-color: inherit;
+    color: inherit;
+    border: 0;
+    padding: 0.25rem;
+    color: $white;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+
+    &:focus {
+      background-color: $deep-pink;
+    }
+
+    svg {
+      font-size: 2.5rem;
+    }
+  }
+
+  .search {
+    @include flex(row, 1.5rem, center);
+    padding: 0 0.5rem;
+    svg {
+      font-size: 2rem;
+    }
+  }
+}
