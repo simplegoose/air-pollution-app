@@ -1,6 +1,7 @@
 @import 'header';
 @import 'colors';
 @import 'home';
+@import 'functions/flex';
 @import 'city_card';
 @import 'detail';
 @import 'detail_card';
@@ -17,4 +18,12 @@
 
 body {
   background-color: $pink;
+}
+
+.error-page {
+  width: 100vw;
+  height: calc(100vh - 200px);
+  @include flex(row, 0, center, center);
+  font-size: 1rem;
+  color: $white;
 }
