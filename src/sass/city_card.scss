@@ -1,10 +1,15 @@
 @import 'colors';
 @import 'functions/flex';
 
+a {
+  width: 50%;
+  text-decoration: none;
+}
+
 .city {
   background-color: $mid-pink;
   @include flex(column, 4rem, flex-end);
-  width: 50%;
+  width: 100%;
   color: $white;
   padding: 1rem 1rem 2rem;
 
@@ -24,7 +29,7 @@
   }
 }
 
-.city:nth-child(4n+2),
-.city:nth-child(4n+3) {
+a:nth-child(4n+2) .city,
+a:nth-child(4n+3) .city {
   background-color: $deep-pink;
 }
