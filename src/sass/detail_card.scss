@@ -17,7 +17,7 @@
     width: 100%;
 
     .components {
-      @include flex(row, 0, center);
+      @include flex(row, 0.2rem 0, center);
       flex-wrap: wrap;
     }
     
