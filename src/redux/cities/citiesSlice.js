@@ -4,12 +4,10 @@ import settings from '../../config/settings';
 
 const axiosGeo = axios.create({
   baseURL: settings.geoURL,
-  timeout: 5000,
 });
 
 const axiosPollution = axios.create({
   baseURL: settings.pollutionURL,
-  timeout: 5000,
 });
 
 const initialState = {
