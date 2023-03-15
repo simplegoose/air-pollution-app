@@ -6,7 +6,7 @@
   @include flex(row, 0, center, space-between);
   width: 100%;
   color: $white;
-  padding: 2rem 1rem;
+  padding: 1rem;
 
   .date {
     font-size: 1.5rem;
@@ -23,7 +23,7 @@
     
     span {
       font-size: 0.8rem;
-      width: 50%;
+      width: 30%;
     }
   }
 
