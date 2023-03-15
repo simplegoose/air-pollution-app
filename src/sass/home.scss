@@ -1,0 +1,44 @@
+@import 'colors';
+@import 'functions/flex';
+
+.home {
+  .hero {
+    @include flex(row, 0, center, space-around);
+    padding: 1rem 0;
+
+    .img-wrapper {
+      width: 50%;
+
+      .hero-img {
+        max-width: 100%;
+        width: 70%;
+        margin: auto 0 auto 20%;
+      }
+    }
+
+    .title {
+      width: 50%;
+      color: $white;
+      padding: 0 0 0 0.5rem;
+
+      h2 {
+        font-weight: 900;
+      }
+
+      h3 {
+        font-weight: 900;
+      }
+    }
+  }
+
+  .stats-header {
+    background-color: $mid-pink;
+    color: $white;
+    padding: 0.5rem;
+  }
+
+  .cities {
+    @include flex();
+    flex-wrap: wrap;
+  }
+}
