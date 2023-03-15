@@ -1,0 +1,37 @@
+@import 'colors';
+@import 'functions/flex';
+
+.detail {
+  background-color: $mid-pink;
+  @include flex(row, 0, center, space-between);
+  width: 100%;
+  color: $white;
+  padding: 2rem 1rem;
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  .comp-arrow {
+    @include flex(row, 2rem, center, space-between);
+    width: 100%;
+
+    .components {
+      @include flex(row, 0, center);
+      flex-wrap: wrap;
+    }
+    
+    span {
+      font-size: 0.8rem;
+      width: 50%;
+    }
+  }
+
+  svg {
+    font-size: 2rem;
+  }
+}
+
+.detail:nth-child(even) {
+  background-color: $deep-pink;
+}
