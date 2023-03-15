@@ -47,7 +47,7 @@ const Details = () => {
               .list
               .map((listItem) => (
                 <DetailCard
-                  key={listItem}
+                  key={listItem.dt}
                   dt={listItem.dt}
                   components={listItem.components}
                 />
