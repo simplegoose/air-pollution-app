@@ -4,6 +4,7 @@
 .home {
   .hero {
     @include flex(row, 0, center, space-around);
+
     padding: 1rem 0;
 
     .img-wrapper {
@@ -39,6 +40,7 @@
 
   .cities {
     @include flex();
+
     flex-wrap: wrap;
   }
 }

@@ -25,7 +25,9 @@ body {
 .error-page {
   width: 100vw;
   height: calc(100vh - 200px);
+
   @include flex(row, 0, center, center);
+
   font-size: 1rem;
   color: $white;
 }

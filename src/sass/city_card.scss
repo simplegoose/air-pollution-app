@@ -8,7 +8,9 @@ a {
 
 .city {
   background-color: $mid-pink;
+
   @include flex(column, 4rem, flex-end);
+
   width: 100%;
   color: $white;
   padding: 1rem 1rem 2rem;

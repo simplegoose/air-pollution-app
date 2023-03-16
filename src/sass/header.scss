@@ -4,7 +4,9 @@
 .header {
   width: 100%;
   padding: 0.5rem;
+
   @include flex(row, 0, center, space-between);
+
   color: $white;
   font-size: 2rem;
   background-color: $header-pink;
@@ -16,7 +18,9 @@
 
   .search {
     @include flex(row, 0.7rem, center);
+
     padding: 0 0.5rem 0 0;
+
     svg {
       font-size: 2rem;
     }

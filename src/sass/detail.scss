@@ -4,6 +4,7 @@
 .details {
   .hero {
     @include flex(row, 0, center, space-between);
+
     padding: 1rem;
 
     .img-wrapper {
@@ -40,6 +41,7 @@
 
   .details-wrapper {
     @include flex(column);
+
     flex-wrap: wrap;
 
     .loading,
