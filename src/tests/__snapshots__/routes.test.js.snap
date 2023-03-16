@@ -1,0 +1,705 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for routes Details page renders correctly 1`] = `
+<main
+  className="details"
+>
+  <section
+    className="main-section"
+  >
+    <div
+      className="hero"
+    >
+      <figure
+        className="img-wrapper"
+      >
+        <img
+          alt="Pollution"
+          className="hero-img"
+          src="air-pollution.png"
+        />
+      </figure>
+      <div
+        className="title"
+      >
+        <h2 />
+      </div>
+    </div>
+    <h4
+      className="stats-header"
+    >
+      CITY POLLUTION BREAKDOWN
+    </h4>
+    <div
+      className="details-wrapper"
+    >
+      <span
+        className="loading"
+      >
+        Loading...
+      </span>
+    </div>
+  </section>
+</main>
+`;
+
+exports[`Test for routes Error page renders correctly 1`] = `
+<div
+  className="error-page"
+>
+  <span>
+    404 | Page not found
+  </span>
+</div>
+`;
+
+exports[`Test for routes Home page renders correctly 1`] = `
+<main
+  className="home"
+>
+  <section
+    className="main-section"
+  >
+    <div
+      className="hero"
+    >
+      <figure
+        className="img-wrapper"
+      >
+        <img
+          alt="Pollution"
+          className="hero-img"
+          src="air-pollution.png"
+        />
+      </figure>
+      <div
+        className="title"
+      >
+        <h2>
+          MAJOR CITIES
+        </h2>
+        <h3>
+          Air Pollution
+        </h3>
+      </div>
+    </div>
+    <h4
+      className="stats-header"
+    >
+      STATS BY CITY
+    </h4>
+    <div
+      className="cities"
+    >
+      <a
+        className=""
+        href="/details/London?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              London
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Beijing?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Beijing
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Barcelona?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Barcelona
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Tokyo?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Tokyo
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Berlin?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Berlin
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Prague?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Prague
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Washington?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Washington
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Boston?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Boston
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Paris?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Paris
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Nairobi?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Nairobi
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Johannesburg?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Johannesburg
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Manchester?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Manchester
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Istanbul?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Istanbul
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Madrid?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Madrid
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Munich?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Munich
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Rome?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Rome
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Athens?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Athens
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Brussels?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Brussels
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+      <a
+        className=""
+        href="/details/Kyiv?lat=undefined&lon=undefined"
+        onClick={[Function]}
+      >
+        <article
+          className="city"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowCircleRightOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zM4 12c0-4.42 3.58-8 8-8s8 3.58 8 8-3.58 8-8 8-8-3.58-8-8zm12 0-4 4-1.41-1.41L12.17 13H8v-2h4.17l-1.59-1.59L12 8l4 4z"
+            />
+          </svg>
+          <div
+            className="titles"
+          >
+            <h5>
+              Kyiv
+            </h5>
+            <h6>
+              Country:
+               
+            </h6>
+          </div>
+        </article>
+      </a>
+    </div>
+  </section>
+</main>
+`;
