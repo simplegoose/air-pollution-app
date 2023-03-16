@@ -70,6 +70,7 @@ const initialState = {
       city: 'Kyiv',
     },
   ],
+  filteredCities: [],
   error: false,
   isLoading: true,
 };
@@ -119,6 +120,18 @@ export const getPollution = createAsyncThunk(
 const citySlice = createSlice({
   name: 'cities',
   initialState,
+  reducers: {
+    filterCities: (state, { payload }) => {
+      const cities = state
+        .cities
+        .filter((city) => city.city.toLowerCase().includes(payload.toLowerCase()));
+
+      return {
+        ...state,
+        filteredCities: cities,
+      };
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(getCordinates.pending, (state) => ({ ...state, isLoading: true, error: false }))
@@ -141,6 +154,7 @@ const citySlice = createSlice({
           isLoading: false,
           error: false,
           cities,
+          filteredCities: cities,
         };
       })
       .addCase(getCordinates.rejected, (state) => ({ ...state, isLoading: false, error: false }))
@@ -169,4 +183,5 @@ const citySlice = createSlice({
 });
 
 const cityReducer = citySlice.reducer;
+export const { filterCities } = citySlice.actions;
 export default cityReducer;
