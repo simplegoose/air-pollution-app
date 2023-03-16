@@ -1,0 +1,31 @@
+@import 'colors';
+
+.search-wrapper {
+  width: 100%;
+  position: relative;
+  top: 110%;
+  padding: 0.5rem 1rem;
+
+  .search {
+    width: 100%;
+    border-radius: 16px;
+    background-color: $mid-pink;
+    font-size: 1rem;
+    padding: 1rem 1rem 1rem 2.7rem;
+    outline: none;
+    border: none;
+    color: $white;
+  }
+
+  .search::placeholder {
+    color: $white;
+  }
+
+  .search-icon {
+    position: absolute;
+    color: $white;
+    font-size: 2rem;
+    left: 1.5rem;
+    top: 30%;
+  }
+}
