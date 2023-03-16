@@ -1,0 +1,33 @@
+@import 'header';
+@import 'colors';
+@import 'home';
+@import 'functions/flex';
+@import 'city_card';
+@import 'detail';
+@import 'detail_card';
+@import 'search';
+@import 'icon_button';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: $pink;
+}
+
+.error-page {
+  width: 100vw;
+  height: calc(100vh - 200px);
+
+  @include flex(row, 0, center, center);
+
+  font-size: 1rem;
+  color: $white;
+}

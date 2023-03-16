@@ -30,15 +30,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Air Pollution Application] <a name="about-project"></a>
 
-**[Air pollution application]** is an application that shows current, forecast and historical air pollution data.
+**[Air pollution application]** is an application that shows historical air pollution data.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
 
 <details>
   <summary>Client</summary>
@@ -68,9 +66,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- [Live Demo Link](https://air-pollution-88cv.onrender.com)
 
-- [Live Demo Link](https://google.com)
+- [Video walkthrough](https://www.loom.com/share/36975ec431be4f44a8c4991896bb44aa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,7 +169,8 @@ If you like this project leave a star on this repo.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
+I would like to thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the design inspiration.
+I would like to thank [the author](https://www.flaticon.com/free-icons/pollution) of the pollution png for such an amazing png.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,6 +178,6 @@ I would like to thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

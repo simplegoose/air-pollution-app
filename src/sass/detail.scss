@@ -1,0 +1,60 @@
+@import 'colors';
+@import 'functions/flex';
+
+.details {
+  .hero {
+    @include flex(row, 0, center, space-between);
+
+    padding: 1rem;
+
+    .img-wrapper {
+      width: 50%;
+
+      .hero-img {
+        max-width: 100%;
+        width: 70%;
+        margin: auto 0 auto 20%;
+      }
+    }
+
+    .title {
+      width: 50%;
+      color: $white;
+      padding: 0 0 0 0.5rem;
+      text-align: end;
+
+      h2 {
+        font-weight: 900;
+      }
+
+      h3 {
+        font-weight: 900;
+      }
+    }
+  }
+
+  .stats-header {
+    background-color: $deep-pink;
+    color: $white;
+    padding: 0.5rem;
+  }
+
+  .details-wrapper {
+    @include flex(column);
+
+    flex-wrap: wrap;
+
+    .loading,
+    .error {
+      font-size: 1.3rem;
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+      color: $white;
+    }
+
+    .error {
+      color: rgb(255, 255, 86);
+    }
+  }
+}

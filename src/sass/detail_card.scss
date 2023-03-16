@@ -1,0 +1,46 @@
+@import 'colors';
+@import 'functions/flex';
+
+.detail {
+  background-color: $mid-pink;
+
+  @include flex(row, 0, center, space-between);
+
+  width: 100%;
+  color: $white;
+  padding: 1rem;
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  .comp-arrow {
+    @include flex(row, 2rem, center, space-between);
+
+    width: 100%;
+
+    h4 {
+      margin-bottom: 0.5rem;
+    }
+
+    .components {
+      @include flex(row, 0.2rem 0, center);
+
+      flex-wrap: wrap;
+      list-style: none;
+
+      li {
+        font-size: 0.8rem;
+        width: 30%;
+      }
+    }
+  }
+
+  svg {
+    font-size: 2rem;
+  }
+}
+
+.detail:nth-child(even) {
+  background-color: $deep-pink;
+}

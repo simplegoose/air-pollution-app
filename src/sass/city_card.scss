@@ -1,0 +1,37 @@
+@import 'colors';
+@import 'functions/flex';
+
+a {
+  width: 50%;
+  text-decoration: none;
+}
+
+.city {
+  background-color: $mid-pink;
+
+  @include flex(column, 4rem, flex-end);
+
+  width: 100%;
+  color: $white;
+  padding: 1rem 1rem 2rem;
+
+  svg {
+    font-size: 2rem;
+  }
+
+  .titles {
+    h5 {
+      font-size: 1.5rem;
+    }
+
+    h6 {
+      text-align: end;
+      font-size: 1rem;
+    }
+  }
+}
+
+a:nth-child(4n+2) .city,
+a:nth-child(4n+3) .city {
+  background-color: $deep-pink;
+}
