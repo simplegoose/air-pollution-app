@@ -9,6 +9,11 @@
   font-size: 2rem;
   background-color: $header-pink;
 
+  h1 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
   .button-back {
     background-color: inherit;
     color: inherit;
@@ -31,8 +36,8 @@
   }
 
   .search {
-    @include flex(row, 1.5rem, center);
-    padding: 0 0.5rem;
+    @include flex(row, 0.7rem, center);
+    padding: 0 0.5rem 0 0;
     svg {
       font-size: 2rem;
     }
