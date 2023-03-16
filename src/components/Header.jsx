@@ -1,7 +1,10 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { ChevronLeft, Mic, Search } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
+import { toggleSearch } from '../redux/search/searchSlice';
+import IconButton from './IconButton';
 
 const Header = ({ title }) => {
   Header.propTypes = {
@@ -9,27 +12,27 @@ const Header = ({ title }) => {
   };
 
   const navigate = useNavigate();
-  const buttonRef = useRef();
+  const dispatch = useDispatch();
 
   const navigateBack = () => {
     if (window && window.history.state.idx > 0) {
       navigate(-1);
     }
-
-    setTimeout(() => {
-      buttonRef.current.blur();
-    }, 300);
   };
+
+  const searchOnClick = () => dispatch(toggleSearch());
 
   return (
     <header className="header">
-      <button className="button-back" type="button" onClick={navigateBack} ref={buttonRef}>
+      <IconButton onClick={navigateBack}>
         <ChevronLeft />
-      </button>
+      </IconButton>
       <h1>{title}</h1>
       <div className="search">
         <Mic />
-        <Search />
+        <IconButton onClick={searchOnClick}>
+          <Search />
+        </IconButton>
       </div>
     </header>
   );
