@@ -14,7 +14,7 @@ const Details = () => {
   const dispatch = useDispatch();
 
   const { cities: { cities, isLoading, error } } = useSelector((state) => state);
-  const city = cities.find((city) => city.city.toLowerCase() === name.toLowerCase());
+  const city = cities.find((city) => city.city.toLowerCase() === name?.toLowerCase());
 
   useEffect(() => {
     dispatch(getPollution({ lat, lon, name }));
@@ -28,7 +28,7 @@ const Details = () => {
             <img src={hero} alt="Pollution" className="hero-img" />
           </figure>
           <div className="title">
-            <h2>{city.city}</h2>
+            <h2>{city?.city}</h2>
           </div>
         </div>
         <h4 className="stats-header">CITY POLLUTION BREAKDOWN</h4>
@@ -42,9 +42,9 @@ const Details = () => {
             && <span className="error">An error has occured :-(</span>
           }
           {
-            city.list
+            city?.list
             && city
-              .list
+              ?.list
               .map((listItem) => (
                 <DetailCard
                   key={listItem.dt}
