@@ -70,7 +70,65 @@ const initialState = {
       city: 'Kyiv',
     },
   ],
-  filteredCities: [],
+  filteredCities: [
+    {
+      city: 'London',
+    },
+    {
+      city: 'Beijing',
+    },
+    {
+      city: 'Barcelona',
+    },
+    {
+      city: 'Tokyo',
+    },
+    {
+      city: 'Berlin',
+    },
+    {
+      city: 'Prague',
+    },
+    {
+      city: 'Washington',
+    },
+    {
+      city: 'Boston',
+    },
+    {
+      city: 'Paris',
+    },
+    {
+      city: 'Nairobi',
+    },
+    {
+      city: 'Johannesburg',
+    },
+    {
+      city: 'Manchester',
+    },
+    {
+      city: 'Istanbul',
+    },
+    {
+      city: 'Madrid',
+    },
+    {
+      city: 'Munich',
+    },
+    {
+      city: 'Rome',
+    },
+    {
+      city: 'Athens',
+    },
+    {
+      city: 'Brussels',
+    },
+    {
+      city: 'Kyiv',
+    },
+  ],
   error: false,
   isLoading: true,
 };
@@ -123,8 +181,7 @@ const citySlice = createSlice({
   reducers: {
     filterCities: (state, { payload }) => {
       const cities = state
-        .cities
-        .filter((city) => city.city.toLowerCase().includes(payload.toLowerCase()));
+        .cities.filter((city) => city.city.toLowerCase().includes(payload.toLowerCase()));
 
       return {
         ...state,
@@ -176,6 +233,7 @@ const citySlice = createSlice({
           isLoading: false,
           error: false,
           cities,
+          filteredCities: cities,
         };
       })
       .addCase(getPollution.rejected, (state) => ({ ...state, isLoading: false, error: true }));
