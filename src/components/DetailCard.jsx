@@ -7,18 +7,21 @@ const DetailCard = ({
 }) => (
   <article className="detail">
     <div className="comp-arrow">
-      <div className="components">
-        {
-          Object.entries(components).map(([key, value]) => (
-            <span key={value}>
-              {key.toUpperCase()}
-              {' '}
-              :
-              {' '}
-              {value}
-            </span>
-          ))
-        }
+      <div className="components-wrapper">
+        <h4>Air composition:</h4>
+        <ul className="components">
+          {
+            Object.entries(components).map(([key, value]) => (
+              <li key={value}>
+                {key.toUpperCase()}
+                {' '}
+                :
+                {' '}
+                {value}
+              </li>
+            ))
+          }
+        </ul>
       </div>
       <ArrowCircleRightOutlined />
     </div>

@@ -16,15 +16,21 @@
     @include flex(row, 2rem, center, space-between);
     width: 100%;
 
+    h4 {
+      margin-bottom: 0.5rem
+    }
+
     .components {
       @include flex(row, 0.2rem 0, center);
       flex-wrap: wrap;
+      list-style: none;
+   
+      li {
+        font-size: 0.8rem;
+        width: 30%;
+      }
     }
     
-    span {
-      font-size: 0.8rem;
-      width: 30%;
-    }
   }
 
   svg {
