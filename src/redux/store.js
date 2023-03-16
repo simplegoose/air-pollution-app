@@ -8,7 +8,13 @@ const store = configureStore({
     cities: cityReducer,
     search: searchReducer,
   },
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
+  middleware: (getDefaultMiddleware) => {
+    if (process.env.NODE_ENV === 'development') {
+      return getDefaultMiddleware().concat(logger);
+    }
+
+    return getDefaultMiddleware();
+  },
 });
 
 export default store;
